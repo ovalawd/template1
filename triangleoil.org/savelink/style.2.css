@@ -1,0 +1,52 @@
+body {
+  background: url(img/y.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+form {
+  width: 24vw;
+  margin: auto;
+  position: relative;
+  top: 33vh;
+  right: 39px;
+  margin-left: -12vw;
+  float: right;
+}
+
+button.nextbtn {
+  position: relative;
+  top: 20px;
+  background-color: #188fff;
+  border-radius: 3px;
+  font-size: 15px;
+  border: none;
+  color: white;
+  font-weight: 600; 
+}
+@media screen and (max-width: 480px){
+  body {
+    background: url(img/y2.jpg) no-repeat center center fixed;    
+  }
+  /* This is a good phone break point. */
+  form {
+    width: 310px;
+    margin: auto;
+    position: relative;
+    top: 25vh;
+    margin-left: -155px;
+    left: 0;
+  }
+  button.nextbtn {
+    position: relative;
+    top: 20px;
+    background-color: #188fff;
+    border-radius: 3px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+}
